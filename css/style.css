@@ -2,6 +2,15 @@
   height: 50px;
 }
 
+.aside-bar-nav {
+  z-index: 1;
+  min-width: 25;
+  height: 91vh;
+}
+
+.main-section-boolean {
+}
+
 /* MEDIA QUERY
 ___________
 ___________
@@ -16,6 +25,9 @@ ___________ */
 }
 
 @media screen and (min-width: 992px) {
+  .search-bar-top {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
