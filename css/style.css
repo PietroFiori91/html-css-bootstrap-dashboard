@@ -4,8 +4,12 @@
 
 .aside-bar-nav {
   z-index: 1;
-  min-width: 25;
-  height: 91vh;
+  min-width: 25px;
+  height: 100vh;
+}
+
+.navbar {
+  /* z-index: 200; */
 }
 
 .main-section-boolean {
