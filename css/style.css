@@ -44,7 +44,7 @@ main {
 }
 
 .spazioverticale {
-  margin-top: 625px;
+  margin-top: 1550%;
 }
 
 /* MEDIA QUERY
@@ -63,6 +63,9 @@ ___________ */
 @media screen and (min-width: 992px) {
   .blue-bar {
     padding-left: 9rem;   
+  }
+  .spazioverticale {
+    margin-top: 630%;
   }
 }
 
