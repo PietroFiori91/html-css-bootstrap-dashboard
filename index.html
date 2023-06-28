@@ -48,7 +48,8 @@
                         class="small-logo-mobile d-lg-none">
                     <img src="./img/logo.svg" alt="logo-desktop" class="big.logo-desktop d-none d-lg-block"></a>
                 <div class="rounded flex-fill search-bar-top">
-                    <input type="search" class="form-control rounded" placeholder="Prova a cercare: Lezioni di Laravel">
+                    <input type="search" style="--bs-bg-opacity: .10;" class="form-control rounded bg-secondary"
+                        placeholder="Prova a cercare: Lezioni di Laravel">
                 </div>
                 <div class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false">
@@ -220,7 +221,7 @@
             <div class="row my-4 d-lg-flex">
                 <div class="col-9 offset-2 col-lg-7 offset-lg-1">
                     <div class="card">
-                        <h1 class="bg-secondary bg-opacity-10">Prossime classi</h1>
+                        <h1 class="bg-secondary bg-opacity-10 p-2 border-bottom">Prossime classi</h1>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -233,24 +234,69 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">Classe 75</th>
+                                    <th scope="row"> <img class="side-img-orange" src="./img/class-avatar.jpg"
+                                            alt="">Classe 75</th>
                                     <td>15 Feb 2021</td>
                                     <td>20%</td>
-                                    <td><button>Done</button></td>
+                                    <td><button class="btn btn-success rounded-pill active">Done</button></td>
                                     <td><button>Done</button></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Classe 76</th>
+                                    <th scope="row"> <img class="side-img-orange" src="./img/class-avatar.jpg"
+                                            alt="">Classe 76</th>
                                     <td>15 Feb 2021</td>
                                     <td>20%</td>
-                                    <td><button>Done</button></td>
+                                    <td><button class="btn btn-success rounded-pill active">Done</button></td>
                                     <td><button>Done</button></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Classe 77</th>
+                                    <th scope="row"> <img class="side-img-orange" src="./img/class-avatar.jpg"
+                                            alt="">Classe 77
+                                    </th>
                                     <td>15 Feb 2021</td>
                                     <td>20%</td>
+                                    <td><button class="btn btn-warning rounded-pill active text-white">Done</button>
+                                    </td>
                                     <td><button>Done</button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> <img class="side-img-orange" src="./img/class-avatar.jpg"
+                                            alt="">Classe 77</th>
+                                    <td>15 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td><button class="btn btn-success rounded-pill active">Done</button></td>
+                                    <td><button>Done</button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> <img class="side-img-orange" src="./img/class-avatar.jpg"
+                                            alt="">Classe 77</th>
+                                    <td>15 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td><button class="btn btn-danger rounded-pill active">Done</button></td>
+                                    <td><button>Done</button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> <img class="side-img-orange" src="./img/class-avatar.jpg"
+                                            alt="">Classe 77</th>
+                                    <td>15 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td><button class="btn btn-success rounded-pill active">Done</button></td>
+                                    <td><button>Done</button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> <img class="side-img-orange" src="./img/class-avatar.jpg"
+                                            alt="">Classe 77</th>
+                                    <td>15 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td><button class="btn btn-danger rounded-pill active">Done</button></td>
+                                    <td><button>Done</button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> <img class="side-img-orange" src="./img/class-avatar.jpg"
+                                            alt="">Classe 77</th>
+                                    <td>15 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td><button class="btn btn-success rounded-pill active">Done</button></td>
                                     <td><button>Done</button></td>
                                 </tr>
                             </tbody>
@@ -265,25 +311,29 @@
                     ________ -->
 
                     <div class="card mt-5">
-                        <h1 class="bg-secondary bg-opacity-10">F.A.Q.</h1>
-                        <select class="form-select bg-white" aria-label="Disabled select example" enabled>
-                            <option selected>Come aggiungere un nuovo studente?</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                        <select class="form-select bg-white" aria-label="Disabled select example" enabled>
-                            <option selected>Come posso accedere alle informazioni del mio account?</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                        <select class="form-select bg-white" aria-label="Disabled select example" enabled>
-                            <option selected>Posso usare questa dashboard da mobile?</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+                        <h1 class="bg-secondary bg-opacity-10 p-2 border-bottom">F.A.Q.</h1>
+                        <div class="p-3">
+                            <select class="form-select bg-white border-0" aria-label="Disabled select example" enabled>
+                                <option selected>Come aggiungere un nuovo studente?</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <hr>
+                            <select class="form-select bg-white border-0" aria-label="Disabled select example" enabled>
+                                <option selected>Come posso accedere alle informazioni del mio account?</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <hr>
+                            <select class="form-select bg-white border-0" aria-label="Disabled select example" enabled>
+                                <option selected>Posso usare questa dashboard da mobile?</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
 
@@ -297,7 +347,8 @@
                 <div class="col-9  col-lg-3 ">
                     <div class="card">
                         <div class="border p-2">
-                            <h1 class="bg-secondary bg-opacity-10">Todo</h1>
+                            <h1 class="bg-secondary bg-opacity-10 p-2 border-bottom">Todo
+                            </h1>
                             <div class="border p-2">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -332,8 +383,8 @@
 
                     <div class="card mt-5">
                         <img src="./img/stats.jpeg" alt="">
-                        <ul class="list-group">
-                            <li class="list-group-item">
+                        <ul class="list-group border-0">
+                            <li class="list-group-item border-0">
                                 <h4>Utenti attivi</h4>
                             </li>
                             <li class="list-group-item">
@@ -342,6 +393,9 @@
                             <li class="list-group-item">Gennaio: 1200</li>
                             <li class="list-group-item">Febbraio: 800</li>
                             <li class="list-group-item">Marzo: 1500</li>
+                            <li class="list-group-item">
+                                <a href="#">Visualizza report approfondito</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
